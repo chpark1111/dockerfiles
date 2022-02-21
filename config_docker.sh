@@ -18,6 +18,6 @@ docker run \
 	--name=chpark1111_deep \
 	-v=$HOME:$HOME \
 	-w=$HOME \
-	chpark1111/tensorflow:2.7.1-gpu-jupyter-python3.9 zsh
+	chpark1111/tensorflow:2.7.1-gpu-jupyter-python3.9 /bin/zsh
 #-u $(id -u ${USER}):$(id -g ${USER}) \
 #-u :$(id -g ${USER}) \
