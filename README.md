@@ -4,7 +4,7 @@
 You can build an image from _Dockerfile_ by the following command:
 ```console
 git clone https://github.com/chpark1111/dockerfiles.git;
-cd dockerfiles;./config_docker.sh
+cd dockerfiles;chmod +x config_docker.sh && ./config_docker.sh
 ```
 **You need to change username by yourself**
 
