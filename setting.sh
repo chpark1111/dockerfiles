@@ -1,6 +1,6 @@
 export USER_NAME="$(whoami)"
 if [ -e "../.dotfiles" ] ; then
-    echo "file exist"
+    echo ".dotfiles already exist"
 else
     git clone https://github.com/chpark1111/my_dotfiles.git /home/$USER_NAME/.dotfiles;cd /home/$USER_NAME/.dotfiles;
     ./install.sh
