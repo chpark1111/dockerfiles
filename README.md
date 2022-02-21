@@ -10,5 +10,5 @@ cd dockerfiles;chmod +x config_docker.sh && ./config_docker.sh
 
 ## 2. Download zsh setting and python libary
 ```console
-cd dockerfiles && sudo ./setting.sh
+cd dockerfiles && sudo bash setting.sh
 ```
